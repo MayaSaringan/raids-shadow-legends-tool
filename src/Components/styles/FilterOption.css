@@ -1,0 +1,59 @@
+.filter-option{
+    flex-direction: row;
+    display:flex;
+    flex:0;
+    align-items: center;
+    justify-content:flex-start;
+    font-size:20px;
+    margin:0;
+}
+.filter-option-status-container{
+    
+}
+
+.filter-option-status{
+    visibility: shown;
+    width:15px;
+    height:15px;
+    background-color: red;
+    margin:8px;
+}
+
+.filter-option-status-selected{
+    visibility: shown;
+    width:15px;
+    height:15px;
+    background-color: green;
+    margin:8px;
+}
+.dark{
+    background-color:#282c34 ;
+    margin:0;
+  }
+.card-head{
+border-bottom-width: 1px;
+
+margin:0;
+
+padding:0px 0px 0px 0px;
+text-align: flex-start;
+    display: flex;
+}
+
+.filter-header{
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style:solid;
+    border-color:black;
+    margin:0;
+    padding:3px;
+    text-align: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.filter-subfilters{
+}
+.filter-subfilters-content{
+   padding:15px;
+}
